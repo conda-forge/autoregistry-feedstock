@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: autoregistry
-  version: 1.2.0
+  version: "1.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/autoregistry-${{ version }}.tar.gz
-  sha256: a62c238b18152f7bb4da59b4fba15050e1fc535e40e1f8d53d93e993d9f4adab
+  sha256: 6ef26a2ad7a34b2f8cf97e53699e5dd49d92d15474e22bfef625ae1b8734e877
 
 build:
   number: 0
